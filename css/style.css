@@ -1,0 +1,31 @@
+ @import url('https://fonts.googleapis.com/css?family=MontserratLight');
+
+h1 {
+	font-family: 'MontserratLight', sans-serif;
+	text-transform: uppercase;
+}
+
+h2,h3,h4,h5,h6 {
+	font-family: 'MontserratLight', sans-serif;
+}
+
+#emailheader {
+	margin-top: -10px;
+	margin-bottom: 15px;
+}
+
+#emailheader i {
+	margin-right: 5px;
+}
+
+#addchild i {
+	margin-left: 5px;
+}
+
+#ui-datepicker-div {
+	display: none;
+}
+
+#datepicker1 {
+	margin-left: 5px;
+}
