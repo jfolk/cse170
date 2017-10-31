@@ -46,63 +46,67 @@
 
 			<h2>Request a Babysitter</h2>
 
-			<div class="container">
-			    <div class="row">
-			        <div class='col-sm-6'>
-						<div class="form-group">
-						  	<label for="sel1">For whom:</label>
-						  	<select class="form-control" id="sel1">
-						    	<option>Rachel Oh</option>
-						    	<option>Jason Oh</option>
-						  	</select>
+			<form>
+				<div class="container">
+				    <div class="row">
+				        <div class='col-sm-6'>
+							<div class="form-group">
+							  	<label for="sel1">For whom:</label>
+							  	<select class="form-control" id="sel1" required>
+							    	<option>Rachel Oh</option>
+							    	<option>Jason Oh</option>
+							  	</select>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="container">
-			    <div class="row">
-			        <div class='col-sm-6'>
-			            <div class="form-group">
-			            	<label for="sel1">When:</label>
-			                <input type='text' id="datepicker1" />
+				<div class="container">
+				    <div class="row">
+				        <div class='col-sm-6'>
+				            <div class="form-group">
+				            	<label for="sel1">When:</label>
+				                <input type='text' id="datepicker1" required/>
 
-			                <script type="text/javascript">
-					            $(function () {
-					                $('#datepicker1').datepicker();
-					            });
-			       			</script>
-			            </div>
-			        </div>
-			    </div>
-			</div>
+				                <script type="text/javascript">
+						            $(function () {
+						                $('#datepicker1').datepicker();
+						            });
+				       			</script>
+				            </div>
+				        </div>
+				    </div>
+				</div>
 
-			<div class="container">
-			    <div class="row">
-			        <div class='col-sm-6'>
-			            <div class="form-group">
-			            	<label for="sel1">Where:</label>
-			                <input type='text' id="where"></input>
-			            </div>
-			        </div>
-			    </div>
-			</div>
+				<div class="container">
+				    <div class="row">
+				        <div class='col-sm-6'>
+				            <div class="form-group">
+				            	<label for="sel1">Where:</label>
+				                <input type='text' required></input>
+				            </div>
+				        </div>
+				    </div>
+				</div>
 
-			<div class="container">
-			    <div class="row">
-			        <div class='col-sm-6'>
-			            <div class="form-group">
-			            	<label for="sel1">Which group:</label>
-			                <select class="form-control" id="sel1">
-						    	<option>UCSD</option>
-						    	<option>Apartmentmates</option>
-						    	<option>Church</church>
-						  	</select>
-			            </div>
-			        </div>
-			        </script>
-			    </div>
-			</div>
+				<div class="container">
+				    <div class="row">
+				        <div class='col-sm-6'>
+				            <div class="form-group">
+				            	<label for="sel1">Which group:</label>
+				                <select class="form-control" id="sel1" required>
+							    	<option>UCSD</option>
+							    	<option>Apartmentmates</option>
+							    	<option>Church</church>
+							  	</select>
+				            </div>
+				        </div>
+				        </script>
+				    </div>
+				</div>
+
+				<button type="submit" class="btn btn-primary">Submit Request</button>
+			</form>
 
 		</body>
 	</div>
